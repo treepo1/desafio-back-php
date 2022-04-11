@@ -12,9 +12,9 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        'http://127.0.0.1:8000/api/user/',
-        'http://127.0.0.1:8000/api/user/*',
-        'http://127.0.0.1:8000/api/login'
+        'https://desafio-back-php.herokuapp.com/api/user/',
+        'https://desafio-back-php.herokuapp.com/api/user/*',
+        'https://desafio-back-php.herokuapp.com/api/login'
 
 
         //
